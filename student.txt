@@ -1,5 +1,5 @@
 Student name: Calvin Kersten
 Student number: 700597
 Student class: IT-1E
-GitHub Repository: your github repository URL
-GitHub Pages URL: your github pages URL
+GitHub Repository: https://github.com/CalvinKersten/assessment2324
+GitHub Pages URL: https://calvinkersten.github.io/assessment2324/
