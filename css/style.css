@@ -144,7 +144,7 @@ body {
     position: relative;
 }
 .image>figure>img {
-    width: 400PX;
+    width: 400px;
     border: 5px solid #801515;
     border-radius: 15px;
 }
