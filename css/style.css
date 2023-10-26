@@ -128,12 +128,17 @@ body {
     font-size: 1.5em;
     justify-content: center;
 }
-
+.pageTitle {
+    line-height: 0;
+}
 .text>h1 {
     font-size: 2em;
     margin: 0;
 }
-
+#intro {
+    text-indent: 530px;
+    margin: 0;
+}
 .image {
     flex: 1;
     display: flex;
@@ -172,6 +177,7 @@ figcaption {
     flex-direction: row;
     justify-content: space-evenly;
     text-align: left;
+    letter-spacing: 2px;
 }
 .moreInfo>ol {
     list-style: decimal;
