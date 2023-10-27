@@ -4,8 +4,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="Sassenheim Insight" content="Information regarding the safety in Sassenheim">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <meta name="keywords" content="Sassenheim, Bollenstreek, Moving, Keukenhof, Teylingen">
+    <meta name="author" content="Calvin Kersten">
     <title>Sassenheim Insight</title>
+    <link rel="icon" type="image/x-icon" href="img/Favicon.png">
 </head>
 
 <body>
@@ -20,7 +23,7 @@
                     <li><a href="needsAndRecreation.html">Needs and recreation</a></li>
                     <li><a href="workingPossibilities.html">Working possibilities</a></li>
                     <li><a href="safety.html">Safety</a></li>
-                    <li><a class="active" href="contact.html">Contact</a></li>
+                    <li><a class="active" href="contact.html">Contact us</a></li>
                 </ul>
             </nav>
         </header>
@@ -31,6 +34,52 @@
             </figure>
         </footer>
     </header>
+
+    <section class="contactInfo">
+        <article>
+            <h1>Have any questions?</h1>
+            <p>Please fill in the form or contact us using the listed methods:</p>
+            <ol>
+                <li>Tel: +31 6 12345678</li>
+                <li>Email: SassenheimInsight.helpdesk@email.com</li>
+            </ol>
+        </article>
+    </section>
+    <form action="" method="POST">
+        <fieldset>
+            <legend>Personal details</legend>
+            <section class="top">
+                <section class="Mr">
+                    <label>Mr</label>
+                    <input id="radioLeft" type="radio" name="radio" required>
+                </section>
+                <section class="Mrs">
+                    <label>Mrs</label>
+                    <input id="radioRight" type="radio" name="radio" required>
+                </section>
+                <section class="firstName">
+                    <label>Name</label>
+                    <input id="name" type="text" name="name" placeholder="Firstname" required>
+                </section>
+                <section class="lastName">
+                    <label>Lastname</label>
+                    <input id="name" type="text" name="lastname" placeholder="Lastname" required>
+                </section>
+            </section>
+            <section class="bottom">
+                <label>Email</label>
+                <input id="email" type="email" name="email" placeholder="Your email address" required>
+                <label>PhoneNr.</label>
+                <input id="nr" type="nr" name="nr" value="+31 6 ">
+                <label>Website</label>
+                <input id="url" type="url" name="url" placeholder="Website link">
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="4" cols="50">
+                </textarea>
+            </section>
+        </fieldset>
+        <input id="submit" type="submit" value="submit">
+    </form>
 
     <footer class="footer">
         <section class="moreInfo">
