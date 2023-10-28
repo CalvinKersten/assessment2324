@@ -607,4 +607,73 @@ body {
     .contactInfo {
         text-align: left;
     }
+
+     /* form */
+     form {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    fieldset {
+        padding: 20px 20px 20px 20px;
+        background-color: #add8e688;
+        border: none;
+        line-height: 30px;
+    }
+
+    .top {
+        display: flex;
+    }
+
+    .bottom {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .Mr,
+    .Mrs {
+        margin: 15px 0 0 0;
+    }
+
+    #radioLeft {
+        margin: 0 10px 0 0;
+    }
+
+    #radioRight {
+        margin: 0 30px 0 0;
+    }
+
+    #name {
+        width: 20em;
+        margin: 0 10px 0 0;
+    }
+
+    .firstName,
+    .lastName {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #email {
+        width: 30em;
+    }
+
+    #nr,
+    #url {
+        width: 15em;
+    }
+
+    #message {
+        width: 40em;
+    }
+
+    #submit {
+        margin: 10px 0 50px 5px;
+        border-radius: 1px;
+        background-color: #add8e688;
+        border: none;
+        box-shadow: 0 2px 5px 2px #00000057;
+        width: 15em;
+    }
 }
