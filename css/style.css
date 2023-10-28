@@ -93,11 +93,11 @@ body {
 
     .banner>h1 {
         position: absolute;
-        top: 50px;
+        top: 60px;
         width: inherit;
         left: 0;
         right: 0;
-        font-size: 8em;
+        font-size: 7em;
         text-align: center;
         margin: 0;
         padding: 0;
