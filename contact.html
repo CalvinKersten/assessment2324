@@ -3,7 +3,6 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="" content="Information regarding the safety in Sassenheim">
     <meta name="description" content="Information regarding the safety in Sassenheim">
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -15,7 +14,7 @@
 
 <body>
     <header class="menu">
-        <header class="navigation">
+        <section class="navigation">
             <figure>
                 <a href="index.html"><img src="img/logo.png" alt="logo"></a>
             </figure>
@@ -28,13 +27,13 @@
                     <li><a class="active" href="contact.html">Contact us</a></li>
                 </ul>
             </nav>
-        </header>
-        <footer>
+        </section>
+        <section>
             <figure class="banner">
                 <img src="img/ContactPageHeader.gif" alt="'Sassenheim' sign">
                 <h1>Contact us</h1>
             </figure>
-        </footer>
+        </section>
     </header>
 
     <section class="contactInfo">
@@ -47,7 +46,7 @@
             </ol>
         </article>
     </section>
-    <form action="" method="POST">
+    <form method="POST">
         <fieldset>
             <legend>Personal details</legend>
             <section class="top">
@@ -61,18 +60,18 @@
                 </section>
                 <section class="firstName">
                     <label>Name</label>
-                    <input id="name" type="text" name="name" placeholder="Firstname" required>
+                    <input class="name" type="text" name="name" placeholder="Firstname" required>
                 </section>
                 <section class="lastName">
                     <label>Lastname</label>
-                    <input id="name" type="text" name="lastname" placeholder="Lastname" required>
+                    <input class="name" type="text" name="lastname" placeholder="Lastname" required>
                 </section>
             </section>
             <section class="bottom">
                 <label>Email</label>
                 <input id="email" type="email" name="email" placeholder="Your email address" required>
                 <label>PhoneNr.</label>
-                <input id="nr" type="nr" name="nr" value="+31 6 ">
+                <input id="nr" type="tel" name="nr" value="+31 6 ">
                 <label>Website</label>
                 <input id="url" type="url" name="url" placeholder="Website link">
                 <label for="message">Message</label>
