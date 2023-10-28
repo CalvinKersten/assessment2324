@@ -80,6 +80,7 @@ body {
         background-image: linear-gradient(90deg, #696868, #700101);
         border-top: 2px solid #000;
         position: relative;
+        align-items: center;
     }
 
     .banner>img {
@@ -92,9 +93,9 @@ body {
 
     .banner>h1 {
         position: absolute;
-        top: 17%;
+        top: 50px;
         width: inherit;
-        left: 16px;
+        left: 0;
         right: 0;
         font-size: 8em;
         text-align: center;
